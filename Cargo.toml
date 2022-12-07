@@ -1,0 +1,17 @@
+[package]
+name = "hwmonitor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.22", features = ["full"] }
+futures-util = "0.3.25"
+futures-channel = "0.3.25"
+lazy_static = "1.4.0"
+tungstenite = "0.18.0"
+tokio-tungstenite = "*"
+axum = "0.6.1"
+sysinfo = "0.26.8"
+rand = "0.8.5"
