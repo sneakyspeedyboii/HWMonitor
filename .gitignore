@@ -1,1 +1,4 @@
+/.vscode
 /target
+/website-src/build
+/website-src/node_modules
